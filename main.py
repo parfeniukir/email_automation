@@ -8,7 +8,7 @@ from news import NewsFeed
 
 
 while True:
-    if datetime.datetime.now().hour == 9 and datetime.datetime.now().minute == 0:
+    if datetime.datetime.now().hour == 10 and datetime.datetime.now().minute == 0:
         df = pd.read_excel("people.xlsx")
 
         for index, row in df.iterrows():
